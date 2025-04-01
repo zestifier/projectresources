@@ -2,6 +2,7 @@
 # Blocks senso.cloud from connecting to servers
 # All senso.cloud domains as of April 1st 2025
 127.0.0.1 senso.cloud
+127.0.0.1 login.senso.cloud
 127.0.0.1 admin.dev.senso.cloud
 127.0.0.1 admin.senso.cloud
 127.0.0.1 api-ne-1.senso.cloud
