@@ -101,12 +101,15 @@
 127.0.0.1 www.dev.senso.cloud
 127.0.0.1 www.locate.senso.cloud
 127.0.0.1 www.portal.senso.cloud
+127.0.0.1 www.sensousa.com
 127.0.0.1 fdus-25.freshdesk.com
 127.0.0.1 lateshowhelp.1iota.com
 127.0.0.1 sa10gl.wpc.edgecastcdn.net
 127.0.0.1 sa120gl.wpc.edgecastcdn.net
 127.0.0.1 senso.improve.online
+127.0.0.1 sensousa.com
 127.0.0.1 sni1d29dgl.wpc.edgecastcdn.net
 127.0.0.1 sni72bcgl.wpc.edgecastcdn.net
 127.0.0.1 *.senso.cloud
+127.0.0.1 *.sensousa.com
 127.0.0.1 *.turn.senso.cloud
