@@ -9,3 +9,6 @@ Add-DnsServerResourceRecordA -Name "(cluster name)" -ZoneName "(domain)" -IPv4Ad
 
 #spoof device as SATA
 #HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\(controller driver name)\Parameters "BusType"=dword:0000000b (instead of 00000008)
+
+#check drive bus
+Get-Disk | select Number, FriendlyName, OperationalStatus, Size, PartitionStyle, BusType | sort Number | ft -AutoSize
