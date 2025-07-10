@@ -8,5 +8,4 @@ Get-ClusterResource | Where-Object ResourceType -eq "IP Address" | Get-ClusterPa
 Add-DnsServerResourceRecordA -Name "(cluster name)" -ZoneName "(domain)" -IPv4Address "(cluster IP)"
 
 #spoof device as SATA
-#HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\(controller driver name)\Parameters
-"BusType"=dword:0000000b (instead of 00000008)
+#HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\(controller driver name)\Parameters "BusType"=dword:0000000b (instead of 00000008)
